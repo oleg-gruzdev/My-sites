@@ -1,0 +1,208 @@
+.contact-us-title {
+  position: relative;
+  min-height: 260px;
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center, center;
+  padding-top: 90px;
+  overflow: hidden;
+  background-image: url('../images/contact-us-top-bgc.png');
+  text-align: center;
+  /*&>img {
+		display: none;
+		max-width: 100%;
+	}*/
+}
+.contact-us-title .title {
+  color: #fff;
+}
+.contact-us-title .title::before {
+  width: 50%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #fff;
+}
+/*.image-instead-of-bgc {
+	display: none;
+	max-width: 100%;
+}*/
+.contact-us-content {
+  position: relative;
+  color: #000;
+  overflow: hidden;
+  background-color: #f3f3f3;
+  padding-top: 50px;
+}
+.contact-us-block {
+  padding: 60px 50px 50px;
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 18px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  color: #191919;
+  font-weight: 300;
+}
+.contact-us-block__inner,
+.facebook {
+  border-bottom: 1px solid #191919;
+}
+.contact-us-block__inner {
+  padding-bottom: 65px;
+}
+.contact-us-block__inner::before,
+.contact-us-block__inner::after {
+  content: '';
+  display: table;
+}
+.contact-us-block__inner::after {
+  clear: both;
+}
+.contacts-item-block {
+  float: left;
+}
+.map {
+  position: relative;
+  width: 500px;
+  height: 600px;
+  float: right;
+}
+.map > div {
+  max-width: 100%;
+}
+#siteNotice
+/*.map::before*/ {
+  /*content: '205 4th Avenue East';
+  position: absolute;
+  top: 50%;
+  left: 50%;*/
+  color: #9e3937;
+  font-size: 14px;
+  font-weight: 400;
+  z-index: 999;
+}
+.gm-style-iw + div {
+  display: none;
+}
+.entry-text {
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.08em;
+  color: #161d27;
+}
+.entry-text--1 {
+  margin-bottom: 40px;
+}
+.entry-text--2,
+.entry-text--3 {
+  margin-top: 30px;
+}
+.entry-text--3 {
+  font-family: 'Suranna', serif;
+  font-size: 30px;
+  letter-spacing: .02em;
+}
+.contact-item {
+  margin-bottom: 40px;
+}
+.contact-item-title {
+  font-family: 'Suranna', serif;
+  font-size: 30px;
+  letter-spacing: .02em;
+  margin-bottom: 40px;
+  position: relative;
+  color: #161d27;
+}
+.contact-item-title::before {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 15px;
+  height: 3px;
+  background-color: #d32942;
+}
+.contact-info {
+  font-size: 18px;
+  letter-spacing: .08em;
+  color: #161d27;
+  margin-bottom: 40px;
+}
+.contact-info a {
+  font-size: 18px;
+  letter-spacing: .08em;
+  color: #161d27;
+  margin-bottom: 40px;
+  text-decoration: underline;
+}
+.address-info {
+  margin-bottom: 0;
+}
+.days-info {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: .08em;
+  margin-bottom: 15px;
+}
+.hours-info {
+  font-size: 18px;
+  letter-spacing: .08em;
+  margin-bottom: 35px;
+}
+.hours-info:last-of-type {
+  margin-bottom: 0;
+}
+.facebook {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.facebook span {
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: .02em;
+}
+.facebook a {
+  letter-spacing: .08em;
+  font-size: 18px;
+  text-decoration: underline;
+  color: #161d27;
+}
+.gm-style > div:nth-child(2) {
+  display: none;
+}
+.gmnoprint {
+  display: none;
+}
+@media screen and (max-width: 960px) {
+  .map {
+    float: none;
+    margin: 0 auto;
+    width: 90%;
+    height: 400px;
+  }
+  .map > div {
+    max-width: 100%;
+  }
+  .contacts-item-block {
+    float: none;
+  }
+  .contact-us-block {
+    padding: 25px 30px 25px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .contact-us-block {
+    padding: 25px 15px 25px;
+  }
+  .map {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .email-info a {
+    font-size: 16px;
+  }
+ }
